@@ -1,0 +1,220 @@
+.cont{
+    height: 99%;
+    width: 99%;
+}
+.haeder{
+    background-color: aqua;
+    height: 15vh;
+}
+.main{
+    display: flex;
+    background-color: beige;
+    height: 74vh;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(17, 14, 14);
+    height: 11vh;
+    width: 100%
+}
+.mainLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    width: 5%;
+}
+.mainCenter{
+    /* background-color: aquamarine; */
+    width: 90%;
+    height: 100%
+}
+.contMainImj{
+    width: 100%;
+    height: 100%
+}
+.mainImg{
+    width: 100%;
+    height: 100%
+}
+.mainRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    width: 5%;
+}
+.headerItem1{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    background-color: rgb(17, 14, 14);
+}
+.headerItem2{
+    height: 50%;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    justify-content: space-around; 
+}
+.headerItem1chaild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 254, 255);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.headerItem1chaild:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 255, 102);
+    font-size: 30px; 
+}
+.headerItem2chaild:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 255, 102);
+    font-size: 30px;
+}
+.headerItem2chaild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 254, 255);
+    cursor: pointer;
+}
+.headerItem1Left{
+    display: flex;
+    width: 30%;
+    background-color: rgb(15, 15, 15);
+    justify-content: space-around;
+}
+.headerItem1Right{
+    width: 30%;
+    background-color: rgb(15, 15, 15);
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 100%;
+}
+.headerIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 80%;
+    height: 80%;
+}
+.img1:hover{
+    width: 100%;
+    height: 100%;
+    
+}
+.footChild1{
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    width: 80%;
+    height: 0.3vh;
+    background-color: rgb(252, 29, 0);
+}
+.footChild2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+.footChild2Icon{
+    width: 10%;
+    height: 60%;
+}
+.headerItem1Center{
+    
+    width: 20%;
+    height: 100%;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    color: red;
+}
+.title:hover{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    color: rgb(81, 255, 0);
+}
+.style1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    color: aqua;
+}
+.balance{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    color:  white;
+    
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 0px;
+}
+.balance:hover{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 4px;
+    color:rgb(63, 245, 8) ;
+    margin-right: 12px;
+}
+.butten{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-right: 4px;
+    margin-top: 0px;
+}
+.hist{
+    margin-right: 2px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.butten button{
+    border-color: transparent;
+    background-color:transparent;
+    color:  white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.name-username{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 7px;
+}
+.name-username:hover{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 4px;
+    color:rgb(63, 245, 8) ;
+    margin-right: 12px;
+}

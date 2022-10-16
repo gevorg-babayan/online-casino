@@ -1,0 +1,137 @@
+@import url('reset.css');
+.auth-content{
+    min-height: 100vh;
+    background-color: rgb(51, 50, 50);
+}
+.displayNone{
+    display: none;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-form{
+    border-radius: 10px;
+    background-color:white;
+    min-width: 40%;
+    height: auto;
+    box-shadow: 5px 10px 18px #888888;
+}
+.login-form h2{
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:#e0555a;
+    min-height: 70px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e0555a;
+    color: white;
+    font-weight: 600;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+}
+.for-inputs{
+    width: 100%;
+    margin-top: 15px;
+}
+.for-inputs div {
+    color: #1e3825;
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-left: 20px;
+    margin-bottom: 7px;
+    font-family: Ubuntu-Bold;
+    
+}
+.for-inputs input{
+    color: #1e3825;
+    font-size: 18px;
+    font-weight: 600;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #ebebeb;
+    height: 35px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: Ubuntu-Bold;
+    border-color: transparent;
+}
+::placeholder {
+    color: #1e3825;
+}
+.text-wrapper{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.for-text{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+.for-text span{
+    color: #9488ba;
+}
+.for-text a{
+text-decoration: underline;
+color: #3575d3;
+}
+.for-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    min-height: 35px;
+    background-color: #e0555a;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    width: 70%;
+    cursor: pointer;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-color: transparent;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.end{
+    width: 100%;
+    line-height: 25px;
+}
+.end p{
+    width: 70%;
+    text-align: center;
+    color: #9488ba;
+    margin-left: auto;
+    margin-right: auto;
+}
+.end p a{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #e0555a;
+    font-family: Ubuntu-Regula;
+    font-weight: 600;
+}
+.last-item{
+    margin-bottom: 25px;
+}
+.display-none{
+    display: none;
+}

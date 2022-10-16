@@ -1,0 +1,128 @@
+@import url("reset.css");
+.table-container{
+    width: 100%;
+    min-height: 100vh;
+  }
+thead{
+  width: 100%;
+}
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+   /* display: flex; */
+   /* justify-content: space-between; */
+  }
+  .empty{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  td {
+    text-align: left;
+    padding: 8px;
+    width: 20%
+  }
+  th {
+    text-align: left;
+    padding: 8px;
+    font-size: 25px;
+    width: 20%
+  }
+  
+
+
+  tr:nth-child(even) {background-color: #bfbfbf;}
+  .heading {
+    background-color: #04AA6D;
+  }
+
+  thead{
+    background-color: #04AA6D;
+  }
+ 
+  .loader-wrapper{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  .trHover:hover {
+    background-color: rgb(21, 150, 107);
+  }
+
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .game-history-info-wrapper{
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .username-balance-wrapper{
+    display: flex;
+  }
+  .username-gamehistory{
+    margin-right: 15px;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(51, 50, 50);
+  }
+  .game-hisory-btn-wrapper .g-btn{
+    background-color: transparent;
+    border-color:transparent ;
+    width: auto;
+    height: auto;
+    font-size: 13px;
+    color: rgb(51, 50, 50);
+    padding: 0px;
+    font-weight: 300;
+    margin-right: 7px;
+    cursor: pointer;
+  }
+  .go-casino{
+    background-color: white; 
+    color: rgb(51, 50, 50); 
+    border: 2px solid #4CAF50;
+    border-radius: 7px;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    padding: 0px;
+    font-weight: 300;
+    margin-left: 7px;
+    cursor: pointer;
+    transition-property: all ;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+  .go-casino:hover {
+    transition-duration: 1s;
+    background-color: #4CAF50;
+    color: white;
+}

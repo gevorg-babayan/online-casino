@@ -1,0 +1,212 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500&display=swap');
+.aboutus-caontainer-wrapper{
+    background-color: #e9eaef;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+}
+.logout-wrapper{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.log-out{
+    border-radius: 4px;
+    border-color: transparent;
+    /* background-color: #e0555a; */
+    background-color: transparent;
+    color:  rgb(51, 50, 50);;
+    font-weight: 400;
+    cursor: pointer;
+}
+.logout-wrapper p{
+    color:  rgb(51, 50, 50);
+    font-weight: 400;
+}
+.aboutus-container{
+    background-color: #e9eaef;;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.Heading{
+    text-align: center;
+    color:  rgb(51, 50, 50);
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.for-bord{
+    border: 0.5px solid #e0555a;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.comp-inf-essay{
+    margin-top: 20px;
+    display: flex;
+}
+.left-part{
+    font-size: 18px;
+    width: 50%;
+    margin: 20px;
+    color: #5e6977;;
+    line-height: 22px;
+    font-weight: 300;
+}
+.right-part{
+    width: 40%;
+    margin: 20px;
+    height: 230px;
+    background-image: url(./photos/casino.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.chiefs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.leaders{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color:  rgb(51, 50, 50);
+    margin-top: 20px;
+    font-weight: 300;
+}
+.Second-for-bord{
+    border: 0.5px solid #e0555a;
+    width: 137px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.slogan{
+    margin-top: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #949fa9;
+    font-weight: 300;
+}
+.first-chief{
+    width: 30%;
+    height: auto;
+}
+.first-chief-img{
+    background-image: url(./photos/Axayan\ Hrant.jpg);
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+
+.second-chief{
+    width: 30%;
+    height: auto;
+}
+.second-chief-img{
+    background-image: url(./photos/Gevorg\ Babayan.jpg);
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+
+.thirth-chief{
+    width: 30%;
+    height: auto;
+}
+.thirth-chief-img{
+    background-image: url(./photos/Harutyun\ Haxverdyan.jpg);
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+
+.optional-text{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    color: #7f8791; 
+}
+.bord-name{
+    border: 0.5px solid #e0555a;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.name{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #7f8791; 
+}
+.long-bord{
+    width: 100%;
+    border: 0.5px solid #7f8791;
+}
+.footer{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#565b5f;;
+    padding-bottom: 20px;
+}
+.footer-left{
+    font-size: 18px;
+    color: white;
+}
+
+.footer-email  a{
+    color: white;
+}
+.footer-right{
+    display: flex;
+}
+.Fasebook{
+    width: 35px;
+    height: 35px;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.Fasebook i{
+   font-size: 20px;
+}
+.Gmail{
+    width: 35px;
+    height: 35px;
+    border: 0.5px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Gmail i {
+    font-size: 20px;
+}
